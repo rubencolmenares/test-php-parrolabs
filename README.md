@@ -9,7 +9,7 @@
 
 ## NGO Employment
 
-## Instalar dependencias
+## Install dependencies
 <p>
 Have the composer installed: https://getcomposer.org/
 </p>
@@ -19,7 +19,7 @@ Install or update Laravel dependencies using "composer install" or "composer upd
 <p>
 Install or update front end dependencies using "npm install" in a console open in the project root</p>
 
-## Configurar base de datos
+## Configure database
 <p>
 Create a database in the MySQL engine and call it from the root .env file, filling in the following parameters</p>
 
@@ -35,7 +35,7 @@ DB_PASSWORD=
 <p>
 Finally run the command "php artisan migrate --seed" in a console in the root of the project, to generate the migrations of the db and records</p>
 
-## Usuario admin
+## Admin user
 <p>
 Access as admin to the application is as follows
 

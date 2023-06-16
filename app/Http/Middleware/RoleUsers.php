@@ -16,12 +16,12 @@ class RoleUsers
      */
     public function handle(Request $request, Closure $next, $role)
     {
-        // Verificar si el usuario tiene el rol requerido
+        // Check if the user has the required role
         if ($request->user() && $request->user()->rol_user_id == $role) {
             return $next($request);
         }else{
-        // Si el usuario no tiene el rol requerido, redirigir o mostrar un mensaje de error
-            return redirect()->back()->with('error', 'Access denied');
+        // If the user does not have the required role redirect
+            return redirect()->back();
         }
     }
 }
