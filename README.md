@@ -7,18 +7,20 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+## NGO Employment
+
 ## Instalar dependencias
-<p align="center">
+<p>
 Have the composer installed: https://getcomposer.org/
 </p>
-<p align="center">
+<p>
 Install or update Laravel dependencies using "composer install" or "composer update" in a console open at the project root</p>
 
-<p align="center">
+<p>
 Install or update front end dependencies using "npm install" in a console open in the project root</p>
 
 ## Configurar base de datos
-<p align="center">
+<p>
 Create a database in the MySQL engine and call it from the root .env file, filling in the following parameters</p>
 
 <p align="center">
@@ -30,11 +32,11 @@ DB_USERNAME=root
 DB_PASSWORD=
 </p>
 
-<p align="center">
+<p>
 Finally run the command "php artisan migrate --seed" in a console in the root of the project, to generate the migrations of the db and records</p>
 
 ## Usuario admin
-<p align="center">
+<p>
 Access as admin to the application is as follows
 
 login: admin@ngoemployment.com
@@ -42,5 +44,5 @@ login: admin@ngoemployment.com
 Password: password123
 </p>
 
-<p align="center">To have a user as a person or company, follow the registration steps in /login</p>
+<p>To have a user as a person or company, follow the registration steps in /login</p>
 
