@@ -24,12 +24,12 @@ Install or update front end dependencies using "npm install" in a console open i
 Create a database in the MySQL engine and call it from the root .env file, filling in the following parameters</p>
 
 <p align="center">
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=
-DB_USERNAME=root
-DB_PASSWORD=
+DB_CONNECTION=mysql<br>
+DB_HOST=127.0.0.1<br>
+DB_PORT=3306<br>
+DB_DATABASE=<br>
+DB_USERNAME=root<br>
+DB_PASSWORD=<br>
 </p>
 
 <p>
